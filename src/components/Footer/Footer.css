@@ -1,0 +1,17 @@
+:root {
+  --text-color: hsla(0, 0%, 100%, 0.87);
+  --bg-color: hsl(0, 0%, 14%);
+  --hover-color: 237, 100%, 70%;
+}
+
+.footer-container {
+  font-size: 0.8rem;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
