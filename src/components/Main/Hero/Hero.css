@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+#heroContent {
+  width: fit-content;
+  max-width: 50%;
+}
+
+#heroImage {
+  width: 500px;
+  height: 500px;
+  border: 1px solid rgba(255, 255, 255);
+  max-width: 50%;
+}
+
+button {
+  margin: 20px;
+  border: 1px solid #646cff;
+}
+
+.btnPrimary {
+  background-color: #646cff;
+}
+
+.btnPrimary:hover {
+  transition: background-color 0.25s;
+  background-color: hsl(237, 100%, 65%);
+}

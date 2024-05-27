@@ -1,0 +1,17 @@
+.acercaDe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.acercaDeContent {
+  max-width: 30%;
+}
+
+.acercaDeImage {
+  width: 250px;
+  height: 250px;
+  border: 1px solid rgba(255, 255, 255);
+  max-width: 50%;
+}

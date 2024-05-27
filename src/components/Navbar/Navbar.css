@@ -1,0 +1,29 @@
+:root {
+  --text-color: hsla(0, 0%, 100%, 0.87);
+  --bg-color: hsl(0, 0%, 14%);
+  --hover-color: 237, 100%, 70%;
+}
+
+.navbar-container {
+  position: sticky;
+  top: 0;
+  font-size: 2rem;
+  background-color: var(--bg-color);
+  height: 4rem;
+}
+
+.navbar-list {
+  list-style: none;
+}
+
+.nav-list-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #646cff;
+  gap: 30px;
+}
+
+.nav-list-items img {
+  color: aqua;
+}
